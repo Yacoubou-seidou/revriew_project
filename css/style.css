@@ -1,0 +1,73 @@
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+      Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+  font-size: 10px;
+}
+
+body{
+    /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Helvetica Neue', Arial, sans-serif;
+  margin:  30px 10px;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+#main{
+  background-color: #EEEEEE;
+  padding-top: 15px;
+}
+
+.tribute-Intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tribute-image{
+width: 90%;
+background-color: white;
+padding: 15px;
+margin: 0 auto;
+}
+
+img{
+width: 100%;
+
+}
+
+ul{
+  width: 60%;
+  margin: 0 auto;
+  text-align: start;
+  padding-top: 10px;
+}
+
+li{
+  line-height: 1.8;
+}
+
+.time-line{
+  margin-top: 10px;
+}
+
+.life-quotes{
+  width: 70%;
+  margin: 0 auto;
+  text-align: start;
+  margin-top: 50px;
+  font-style: italic;
+}
+
+h4{
+  font-size: 20px;
+}
+
+span{
+  font-weight: bold;
+}
